@@ -1,0 +1,5 @@
+requests
+lxml==4.9.4
+cssselect
+pytesseract
+pillow
