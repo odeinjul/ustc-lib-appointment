@@ -59,7 +59,7 @@ def login(session: requests.Session, username: str, password: str):
             "LT": get_validatecode(session)
         },
         headers={
-            "Referer": "https://passport.ustc.edu.cn/login?service=http://hs.lib.ustc.edu.cn/account/Login",
+            "Referer": "https://id.ustc.edu.cn/cas/login?service=http://hs.lib.ustc.edu.cn/account/Login&renew=true",
         },
         allow_redirects=True,
     )
